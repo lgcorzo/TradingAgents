@@ -1,3 +1,5 @@
+Maintained fork of [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents). It applies security patches and maintenance fixes on top of upstream. Part of the [Dark Gravity](https://github.com/lgcorzo/rust_CACD_autonomous_factory) factory. License: Apache-2.0.
+
 <p align="center">
   <img src="tradingagents/assets/tauric-logo.svg" width="60%" alt="Tauric Research">
 </p>
@@ -417,3 +419,10 @@ Please reference our work if you find *TradingAgents* provides you with some hel
       url={https://arxiv.org/abs/2412.20138}, 
 }
 ```
+
+---
+
+### Fork Maintenance & Agent Transparency
+
+- **Changes vs. Upstream:** Security dependency updates, CI/CD workflow fixes, and CodeQL remediation are tracked in the [commit history](https://github.com/lgcorzo/TradingAgents/commits) and [Pull Requests](https://github.com/lgcorzo/TradingAgents/pulls?q=is%3Apr).
+- **Agent Tagging (`[agent]`):** Commits and pull requests generated automatically by agents in the Dark Gravity pipeline are prefixed with `[agent]` to distinguish automated maintenance from manual work.
